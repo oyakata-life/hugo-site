@@ -53,7 +53,7 @@ paginate = 10
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Blog".
-    home = "Home / ホーム"
+    home = "Home ／ ホーム"
 
     # Metadata used to drive integrations.
     googleAnalytics = "Your Google Analytics tracking code"
@@ -75,5 +75,7 @@ paginate = 10
 
 [Menus]
   main = [
-      {Name = "Blog / ブログ", URL = "https://blog.oyakata-life.net/"}
+      {Name = "About ／ 自己紹介", URL = "/about/", weight = 1},
+      {Name = "Works ／ 作業", URL = "/works/", weight = 2},
+      {Name = "Blog ／ ブログ", URL = "https://blog.oyakata-life.net/", weight = 3}
   ]

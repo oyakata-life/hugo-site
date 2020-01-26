@@ -6,19 +6,36 @@
     <description>Recent content on 親方の部屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://oyakata-life.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://oyakata-life.net/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>ライセンス</title>
+      <link>https://oyakata-life.net/license/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://oyakata-life.net/</guid>
-      <description>サイト説明 親方という札幌在住エンジニアの書き溜め
-サイトマップ Home / ホーム
-Blog / ブログ</description>
+      <guid>https://oyakata-life.net/license/</guid>
+      <description>Under construction</description>
+    </item>
+    
+    <item>
+      <title>作業</title>
+      <link>https://oyakata-life.net/works/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oyakata-life.net/works/</guid>
+      <description>Under construction</description>
+    </item>
+    
+    <item>
+      <title>自己紹介</title>
+      <link>https://oyakata-life.net/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://oyakata-life.net/about/</guid>
+      <description>名前 親方 / oyakata</description>
     </item>
     
   </channel>
