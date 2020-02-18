@@ -77,5 +77,5 @@ paginate = 10
   main = [
       {Name = "About ／ 自己紹介", URL = "/about/", weight = 1},
       {Name = "Works ／ 作業", URL = "/works/", weight = 2},
-      {Name = "Blog ／ ブログ", URL = "https://blog.oyakata-life.net/", weight = 3}
+      {Name = "Blog ／ ブログ", URL = "https://blog.oyakata-life.net/", weight = 3, Post = ' <i class="fa fa-external-link"></i>'}
   ]
