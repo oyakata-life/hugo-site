@@ -11,4 +11,6 @@ date = "2020-01-01"
 [Home ／ ホーム](/)  
 [About ／ 自己紹介](/about/)  
 [Works ／ 作業](/works/)  
-[Blog ／ ブログ](https://blog.oyakata-life.net)
+[Blog ／ ブログ](https://blog.oyakata-life.net)  
+[American football ／ アメフト](https://american-football.oyakata-life.net)  
+[Tech ／ 技術](https://tech.oyakata-life.net)

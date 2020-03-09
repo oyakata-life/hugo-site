@@ -77,5 +77,7 @@ paginate = 10
   main = [
       {Name = "About ／ 自己紹介", URL = "/about/", weight = 1},
       {Name = "Works ／ 作業", URL = "/works/", weight = 2},
-      {Name = "Blog ／ ブログ", URL = "https://blog.oyakata-life.net/", weight = 3, Post = ' <i class="fa fa-external-link"></i>'}
+      {Name = "Blog ／ ブログ", URL = "https://blog.oyakata-life.net/", weight = 3, Post = ' <i class="fa fa-external-link"></i>'},
+      {Name = "American football ／ アメフト", URL = "https://american-football.oyakata-life.net/", weight = 4, Post = ' <i class="fa fa-external-link"></i>'},
+      {Name = "Tech ／ 技術", URL = "https://tech.oyakata-life.net/", weight = 5, Post = ' <i class="fa fa-external-link"></i>'}
   ]
