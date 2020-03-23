@@ -19,5 +19,5 @@ jobs:
         ssh_port: ${{ secrets.PORT }}
         ssh_username: ${{ secrets.USERNAME }}
         ssh_host: ${{ secrets.HOST }}
-        source: 'public/*'
+        source: 'public'
         target: ${{ secrets.TARGET }}
