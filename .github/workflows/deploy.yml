@@ -1,0 +1,25 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'public/*'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: SCP Deploy
+      uses: lBeJIuk/scp_action@v1
+      with:
+        public_key: ${{ secrets.PUBLIC_KEY }}
+        ssh_port: ${{ secrets.PORT }}
+        ssh_username: ${{ secrets.USERNAME }}
+        ssh_host: ${{ secrets.HOST }}
+        source: 'public/*'
+        target: ${{ secrets.TARGET }}
