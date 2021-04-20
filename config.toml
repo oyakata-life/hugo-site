@@ -73,6 +73,9 @@ paginate = 10
     rss = false  # switch to true to enable RSS icon link
     flattr = ""  # populate with your flattr uid
 
+    # Site publish year for Copyright. Default is now.
+    publishYear = "2020"
+
 [Menus]
   main = [
       {Name = "About / 自己紹介", URL = "/about/", weight = 1},

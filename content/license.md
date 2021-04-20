@@ -2,6 +2,7 @@
 title = "ライセンス"
 date = "2020-01-01"
 +++
+MIT License
 
 Copyright 2020 親方
 

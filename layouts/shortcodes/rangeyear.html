@@ -1,0 +1,1 @@
+{{ with $.Site.Params.publishYear }}{{ $var := now.Format "2006" }}{{ if eq . $var }}{{ $var }}{{ else }}{{ . }} - {{ $var }}{{ end }}{{ else }}{{ now.Format "2006" }}{{ end }}
