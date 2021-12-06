@@ -28,7 +28,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://oyakata-life.net/works/</guid>
-      <description>Vue(3)    名称 説明     メモアプリ 簡易的なToDoアプリ。 DBを使ってないので、同一ブラウザの場合のみ、再アクセス時に以前の情報を表示する。   書籍検索 WEBAPIを使用した検索アプリ。    </description>
+      <description>Vue(3)    名称 説明     メモアプリ 簡易的なToDoアプリ。 DBを使ってないので、同一ブラウザの場合のみ、再アクセス時に以前の情報を表示する。    Laravel    名称 説明     書籍検索 WEBAPIを使用した検索アプリ。    </description>
     </item>
     
     <item>
