@@ -6,11 +6,7 @@
     <description>Recent content in ホーム on 親方の部屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://oyakata-life.net/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://oyakata-life.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ライセンス</title>
       <link>https://oyakata-life.net/license/</link>
@@ -28,7 +24,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://oyakata-life.net/works/</guid>
-      <description>Vue(3)    名称 説明     メモアプリ 簡易的なToDoアプリ。 DBを使ってないので、同一ブラウザの場合のみ、再アクセス時に以前の情報を表示する。    Laravel    名称 説明     書籍検索 WEBAPIを使用した検索アプリ。    React    名称 説明     メモアプリ ReactOnlyの簡易的なToDoアプリ。Reloadしたら消えます。。    </description>
+      <description>Vue(3) 名称 説明 メモアプリ簡易的なToDoアプリ。 DBを使ってないので、同一ブラウザの場合のみ、再アクセス時に以前の情報を表示する。 Laravel 名称 説明 書籍検索WEBAPIを使用した検索アプリ。 React 名称 説明 メモアプリReactOnlyの簡易的なToDoアプリ。Reloadしたら消えます。。 </description>
     </item>
     
     <item>
@@ -38,7 +34,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
       
       <guid>https://oyakata-life.net/about/</guid>
       <description>名前 親方 / oyakata
-資格    取得年月 名称     2000/08 普通自動車第一種運転免許   2008/06? 普通自動二輪車免許   2008/07 大型自動二輪車免許   2020/10 ITパスポート試験    </description>
+資格 取得年月 名称 2000/08 普通自動車第一種運転免許 2008/06? 普通自動二輪車免許 2008/07 大型自動二輪車免許 2020/10 ITパスポート試験 </description>
     </item>
     
   </channel>
