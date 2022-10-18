@@ -1,0 +1,21 @@
+name: debug_secret
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Debug
+      run: |
+        echo "ACCESS_KEY = ${{ secrets.ACCESS_KEY }}"
+        echo "PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}"
+        echo "PORT: ${{ secrets.PORT }}"
+        echo "USERNAME: ${{ secrets.USERNAME }}"
+        echo "HOST: ${{ secrets.HOST }}"
+        echo "TARGET: ${{ secrets.TARGET }}"
