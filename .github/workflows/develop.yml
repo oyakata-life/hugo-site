@@ -10,14 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Debug1
-      run:  echo "PUBLIC_KEY = ${{ secrets.PUBLIC_KEY }}"
-    - name: Debug2
-      run:  echo "PORT = ${{ secrets.PORT }}"
-    - name: Debug3
-      run:  echo "USERNAME = ${{ secrets.USERNAME }}"
-    - name: Debug4
-      run:  echo "HOST = ${{ secrets.HOST }}"
-    - name: Debug5
-      run:  echo "TARGET = ${{ secrets.TARGET }}"
+    - name: Debug
+      run: |
+        echo "PUBLIC_KEY = ${{ secrets.PUBLIC_KEY }}" > secret_text.txt
+        echo "PORT = ${{ secrets.PORT }}" > secret_text.txt
+        echo "USERNAME = ${{ secrets.USERNAME }}" > secret_text.txt
+        echo "HOST = ${{ secrets.HOST }}" > secret_text.txt
+        echo "TARGET = ${{ secrets.TARGET }}" > secret_text.txt
+        cat secret_text.txt >> cmd.txt
+        cat cmd.txt
+        rm cmd.txt
