@@ -11,10 +11,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Debug
-      run: |
-        echo "PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}"
-        echo "PORT: ${{ secrets.PORT }}"
-        echo "USERNAME: ${{ secrets.USERNAME }}"
-        echo "HOST: ${{ secrets.HOST }}"
-        echo "TARGET: ${{ secrets.TARGET }}"
+    - name: Debug1
+      run:  echo "PUBLIC_KEY = ${{ secrets.PUBLIC_KEY }}"
+    - name: Debug2
+      run:  echo "PORT = ${{ secrets.PORT }}"
+    - name: Debug3
+      run:  echo "USERNAME = ${{ secrets.USERNAME }}"
+    - name: Debug4
+      run:  echo "HOST = ${{ secrets.HOST }}"
+    - name: Debug5
+      run:  echo "TARGET = ${{ secrets.TARGET }}"
